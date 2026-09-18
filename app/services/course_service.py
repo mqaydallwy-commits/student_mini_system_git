@@ -2,7 +2,7 @@
 import secrets
 from datetime import datetime
 from app.core.decorators import log_action, requires_auth
-from app.core.exceptions import CourseNotFoundError, EnrollmentError
+from app.core.exceptions import CourseNotFoundError
 from app.models.course import Course
 from app.models.enums import CourseLevel
 from app.repositories.course_repository import CourseRepository

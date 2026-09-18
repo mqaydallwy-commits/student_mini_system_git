@@ -3,6 +3,7 @@ import secrets
 from app.core.decorators import log_action
 from app.core.exceptions import AuthenticationError, UserAlreadyExistsError
 from app.core.security import hash_password, verify_password
+from app.models.enums import UserRole
 from app.models.user import User
 from app.repositories.user_repository import UserRepository
 
@@ -25,7 +26,12 @@ class AuthService:
             raise ValueError("Username and password are required.")
         if self.user_repository.find_by_username(username):
             raise UserAlreadyExistsError("Username already exists.")
-        user = User(f"USR-{secrets.token_hex(4).upper()}", username, hash_password(password))
+        user = User(
+            f"USR-{secrets.token_hex(4).upper()}",
+            username,
+            hash_password(password),
+            UserRole(role),
+        )
         self.user_repository.add(user)
         return user
 
