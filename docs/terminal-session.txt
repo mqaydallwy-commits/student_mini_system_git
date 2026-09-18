@@ -1,0 +1,1672 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260918174342
+Username: DESKTOP-F9DDGHQ\Mohmmed_AL-raud
+RunAs User: DESKTOP-F9DDGHQ\Mohmmed_AL-raud
+Configuration Name: 
+Machine: DESKTOP-F9DDGHQ (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5348
+PSVersion: 5.1.17763.134
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.134
+BuildVersion: 10.0.17763.134
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\docs\terminal-session.txt
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-Location
+
+Path
+----
+C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git
+
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-ChildItem
+
+
+    Directory: C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        9/14/2026   9:23 PM                app
+d-----        9/18/2026   5:43 PM                docs
+d-----        9/14/2026   9:24 PM                tests
+-a----        9/14/2026   9:23 PM            987 ARCHITECTURE.md
+-a----        9/14/2026   9:23 PM            324 pyproject.toml
+-a----        9/16/2026   8:51 PM           2028 README.md
+
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> git status
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> git remote -v
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> git branch -a
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> git log --oneline --graph --decorate --all -n 20
+*   76455bd (HEAD -> main, origin/main) Merge pull request #1 from mqaydallwy-commits/feature/data-cl
+eaning
+|\
+| * 3a27ebf Add devloper names in README.md
+|/
+* 823ec03 initial commit
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> git status
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        docs/
+
+nothing added to commit but untracked files present (use "git add" to track)
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> python -m compileall -q src
+Can't list 'src'
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> python -m pytest -q
+
+no tests ran in 0.03s
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-ChildItem
+
+
+    Directory: C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        9/18/2026   6:17 PM                .pytest_cache
+d-----        9/14/2026   9:23 PM                app
+d-----        9/18/2026   5:43 PM                docs
+d-----        9/14/2026   9:24 PM                tests
+-a----        9/14/2026   9:23 PM            987 ARCHITECTURE.md
+-a----        9/14/2026   9:23 PM            324 pyproject.toml
+-a----        9/16/2026   8:51 PM           2028 README.md
+
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-ChildItem .\tests -Recurse -File
+
+
+    Directory: C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\tests
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        9/14/2026   9:23 PM              0 __init__.py
+
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-ChildItem .\app -Recurse -File
+
+
+    Directory: C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\app
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        9/14/2026   9:23 PM             47 __init__.py
+-a----        9/14/2026   9:23 PM            106 __main__.py
+
+
+    Directory: C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\app\cli
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        9/14/2026   9:23 PM           5140 menu.py
+-a----        9/14/2026   9:23 PM             38 __init__.py
+
+
+    Directory: C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\app\core
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        9/14/2026   9:23 PM            610 config.py
+-a----        9/14/2026   9:23 PM            990 exceptions.py
+-a----        9/14/2026   9:23 PM           1021 security.py
+-a----        9/14/2026   9:23 PM             77 __init__.py
+
+
+    Directory: C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\app\models
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        9/14/2026   9:23 PM            171 __init__.py
+
+
+    Directory: C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\app\repositories
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        9/14/2026   9:23 PM            602 user_repository.py
+-a----        9/14/2026   9:23 PM             32 __init__.py
+
+
+    Directory: C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\app\services
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        9/14/2026   9:23 PM           1852 auth_service.py
+-a----        9/14/2026   9:23 PM           2380 course_service.py
+-a----        9/14/2026   9:23 PM             25 __init__.py
+
+
+    Directory: C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\app\utils
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        9/14/2026   9:23 PM             23 __init__.py
+
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-ChildItem .\tests -Recurse -File | Select-Object FullName, Length
+
+FullName                                                                   Length
+--------                                                                   ------
+C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\tests\__init__.py      0
+
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-Content .\app\services\auth_service.py
+"""Authentication business logic."""
+import secrets
+from app.core.decorators import log_action
+from app.core.exceptions import AuthenticationError, UserAlreadyExistsError
+from app.core.security import hash_password, verify_password
+from app.models.user import User
+from app.repositories.user_repository import UserRepository
+
+class AuthService:
+    """Manage registration, login, logout, and authentication state."""
+    def __init__(self, user_repository: UserRepository) -> None:
+        self.user_repository = user_repository
+        self.current_user: User | None = None
+
+    @property
+    def is_authenticated(self) -> bool:
+        """Return whether a user is currently logged in."""
+        return self.current_user is not None
+
+    @log_action
+    def register(self, username: str, password: str, *, role: str = "staff") -> User:
+        """Register a new user with a hashed password."""
+        username = username.strip()
+        if not username or not password:
+            raise ValueError("Username and password are required.")
+        if self.user_repository.find_by_username(username):
+            raise UserAlreadyExistsError("Username already exists.")
+        user = User(f"USR-{secrets.token_hex(4).upper()}", username, hash_password(password))
+        self.user_repository.add(user)
+        return user
+
+    @log_action
+    def login(self, username: str, password: str) -> User:
+        """Authenticate a user and set the current session."""
+        user = self.user_repository.find_by_username(username.strip())
+        if user is None or not verify_password(password, user.password_hash):
+            raise AuthenticationError("Invalid username or password.")
+        self.current_user = user
+        return user
+
+    def logout(self) -> None:
+        """End the current authenticated session."""
+        self.current_user = None
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-Content .\app\services\course_service.py
+"""Course business logic."""
+import secrets
+from datetime import datetime
+from app.core.decorators import log_action, requires_auth
+from app.core.exceptions import CourseNotFoundError, EnrollmentError
+from app.models.course import Course
+from app.models.enums import CourseLevel
+from app.repositories.course_repository import CourseRepository
+
+def _course_name_validator(min_length: int):
+    """Return a closure that validates a course name length."""
+    def validator(value: str) -> str:
+        cleaned = value.strip()
+        if len(cleaned) < min_length:
+            raise ValueError(f"Course name must contain at least {min_length} characters.")
+        return cleaned
+    return validator
+
+validate_course_name = _course_name_validator(2)
+
+class CourseService:
+    """Manage course creation and retrieval."""
+    def __init__(self, course_repository: CourseRepository, auth_service: object) -> None:
+        self.course_repository = course_repository
+        self.auth_service = auth_service
+
+    @property
+    def is_authenticated(self) -> bool:
+        """Expose authentication state to the requires_auth decorator."""
+        return bool(getattr(self.auth_service, "is_authenticated", False))
+
+    @requires_auth
+    @log_action
+    def add_course(self, name: str, hours: int, start_date: str, *, level: CourseLevel = CourseLevel.BEGINNER) -> Course:
+        """Create and persist a course after validating its fields."""
+        clean_name = validate_course_name(name)
+        try:
+            datetime.strptime(start_date.strip(), "%Y-%m-%d")
+        except ValueError as exc:
+            raise ValueError("Start date must use YYYY-MM-DD format.") from exc
+        if hours <= 0:
+            raise ValueError("Hours must be greater than zero.")
+        course = Course(f"CRS-{secrets.token_hex(3).upper()}", clean_name, int(hours), start_date.strip(), level)
+        self.course_repository.add(course)
+        return course
+
+    @requires_auth
+    def get_all_courses(self) -> list[Course]:
+        """Return all courses."""
+        return self.course_repository.all()
+
+    def get_course(self, course_id: str) -> Course:
+        """Return one course or raise CourseNotFoundError."""
+        course = self.course_repository.find_by_id(course_id)
+        if course is None:
+            raise CourseNotFoundError(f"Course not found: {course_id}")
+        return course
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-Content .\tests\test_services.py
+Get-Content : Cannot find path 'C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\tests\test_services.py' 
+because it does not exist.
+At line:1 char:1
++ Get-Content .\tests\test_services.py
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Mohmme...est_services.py:String) [Get-Content], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\tests\test_services.py' because it
+does not exist.
+At line:1 char:1
++ Get-Content .\tests\test_services.py
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Mohmme...est_services.py:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-Content .\tests\test_services.py
+Get-Content : Cannot find path 'C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\tests\test_services.py' 
+because it does not exist.
+At line:1 char:1
++ Get-Content .\tests\test_services.py
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Mohmme...est_services.py:String) [Get-Content], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot find path 'C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\tests\test_services.py' because it
+does not exist.
+At line:1 char:1
++ Get-Content .\tests\test_services.py
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Mohmme...est_services.py:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> python -m pytest -q
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-ChildItem .\app\core -Recurse -File | Select-Object FullName
+
+FullName
+--------
+C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\app\core\config.py
+C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\app\core\exceptions.py
+C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\app\core\security.py
+C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\app\core\__init__.py
+C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\app\core\__pycache__\__init__.cpython-313.pyc
+
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-Content .\pyproject.toml
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "student-mini-system"
+version = "1.0.0"
+description = "A CLI student and course management system using Python standard library."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-ChildItem -Recurse -File -Filter decorators.py | Select-Object FullName
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-ChildItem .\app -Recurse -Filter *.py | Select-String "log_action|requires_auth"
+
+app\services\auth_service.py:3:from app.core.decorators import log_action
+app\services\auth_service.py:20:    @log_action
+app\services\auth_service.py:32:    @log_action
+app\services\course_service.py:4:from app.core.decorators import log_action, requires_auth
+app\services\course_service.py:29:        """Expose authentication state to the requires_auth decorator."""
+app\services\course_service.py:32:    @requires_auth
+app\services\course_service.py:33:    @log_action
+app\services\course_service.py:47:    @requires_auth
+
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-ChildItem -Recurse -File -Filter test_services.py | Select-Object FullName
+
+FullName
+--------
+C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\app\tests\test_services.py
+
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Move-Item .\app\tests\test_services.py .\tests\test_services.py
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-ChildItem .\tests -File
+
+
+    Directory: C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\tests
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        9/18/2026   6:23 PM            870 test_services.py
+-a----        9/14/2026   9:23 PM              0 __init__.py
+
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-Content .\app\core\exceptions.py
+"""Application-specific exception hierarchy."""
+
+class StudentSystemError(Exception):
+    """Base exception for expected application errors."""
+
+class AuthenticationError(StudentSystemError):
+    """Raised when authentication fails or is required."""
+
+class UserAlreadyExistsError(StudentSystemError):
+    """Raised when a username is already registered."""
+
+class StudentNotFoundError(StudentSystemError):
+    """Raised when a student cannot be found."""
+
+class CourseNotFoundError(StudentSystemError):
+    """Raised when a course cannot be found."""
+
+class StudentAlreadyEnrolledError(StudentSystemError):
+    """Raised when a student is already enrolled in a course."""
+
+class InvalidGradeError(StudentSystemError):
+    """Raised when a grade is outside the range 0..100."""
+
+class EnrollmentError(StudentSystemError):
+    """Raised for invalid enrollment operations."""
+
+class DataStorageError(StudentSystemError):
+    """Raised when persisted data cannot be read or written safely."""
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Reusable decorators for application services."""
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Reusable decorators for application services."""
+import logging
+from functools import wraps
+from typing import Any, Callable, TypeVar, cast
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Reusable decorators for application services."""
+import logging
+from functools import wraps
+from typing import Any, Callable, TypeVar, cast
+from app.core.exceptions import AuthenticationError
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Reusable decorators for application services."""
+import logging
+from functools import wraps
+from typing import Any, Callable, TypeVar, cast
+from app.core.exceptions import AuthenticationError
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Reusable decorators for application services."""
+import logging
+from functools import wraps
+from typing import Any, Callable, TypeVar, cast
+from app.core.exceptions import AuthenticationError
+logger = logging.getLogger(__name__)
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Reusable decorators for application services."""
+import logging
+from functools import wraps
+from typing import Any, Callable, TypeVar, cast
+from app.core.exceptions import AuthenticationError
+logger = logging.getLogger(__name__)
+F = TypeVar("F", bound=Callable[..., Any])
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Reusable decorators for application services."""
+import logging
+from functools import wraps
+from typing import Any, Callable, TypeVar, cast
+from app.core.exceptions import AuthenticationError
+logger = logging.getLogger(__name__)
+F = TypeVar("F", bound=Callable[..., Any])
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Reusable decorators for application services."""
+import logging
+from functools import wraps
+from typing import Any, Callable, TypeVar, cast
+from app.core.exceptions import AuthenticationError
+logger = logging.getLogger(__name__)
+F = TypeVar("F", bound=Callable[..., Any])
+def log_action(func: F) -> F:
+    """Log a service action while preserving the wrapped function."""
+    @wraps(func)
+    def wrapper(*args: Any, **kwargs: Any) -> Any:
+        logger.info("Action: %s", func.__qualname__)
+        return func(*args, **kwargs)
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Reusable decorators for application services."""
+import logging
+from functools import wraps
+from typing import Any, Callable, TypeVar, cast
+from app.core.exceptions import AuthenticationError
+logger = logging.getLogger(__name__)
+F = TypeVar("F", bound=Callable[..., Any])
+def log_action(func: F) -> F:
+    """Log a service action while preserving the wrapped function."""
+    @wraps(func)
+    def wrapper(*args: Any, **kwargs: Any) -> Any:
+        logger.info("Action: %s", func.__qualname__)
+        return func(*args, **kwargs)
+    return cast(F, wrapper)
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Reusable decorators for application services."""
+import logging
+from functools import wraps
+from typing import Any, Callable, TypeVar, cast
+from app.core.exceptions import AuthenticationError
+logger = logging.getLogger(__name__)
+F = TypeVar("F", bound=Callable[..., Any])
+def log_action(func: F) -> F:
+    """Log a service action while preserving the wrapped function."""
+    @wraps(func)
+    def wrapper(*args: Any, **kwargs: Any) -> Any:
+        logger.info("Action: %s", func.__qualname__)
+        return func(*args, **kwargs)
+    return cast(F, wrapper)
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Reusable decorators for application services."""
+import logging
+from functools import wraps
+from typing import Any, Callable, TypeVar, cast
+from app.core.exceptions import AuthenticationError
+logger = logging.getLogger(__name__)
+F = TypeVar("F", bound=Callable[..., Any])
+def log_action(func: F) -> F:
+    """Log a service action while preserving the wrapped function."""
+    @wraps(func)
+    def wrapper(*args: Any, **kwargs: Any) -> Any:
+        logger.info("Action: %s", func.__qualname__)
+        return func(*args, **kwargs)
+    return cast(F, wrapper)
+def requires_auth(func: F) -> F:
+    """Allow the operation only when the service is authenticated."""
+    @wraps(func)
+    def wrapper(self: Any, *args: Any, **kwargs: Any) -> Any:
+        if not bool(getattr(self, "is_authenticated", False)):
+            raise AuthenticationError("Authentication required.")
+        return func(self, *args, **kwargs)
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Reusable decorators for application services."""
+import logging
+from functools import wraps
+from typing import Any, Callable, TypeVar, cast
+from app.core.exceptions import AuthenticationError
+logger = logging.getLogger(__name__)
+F = TypeVar("F", bound=Callable[..., Any])
+def log_action(func: F) -> F:
+    """Log a service action while preserving the wrapped function."""
+    @wraps(func)
+    def wrapper(*args: Any, **kwargs: Any) -> Any:
+        logger.info("Action: %s", func.__qualname__)
+        return func(*args, **kwargs)
+    return cast(F, wrapper)
+def requires_auth(func: F) -> F:
+    """Allow the operation only when the service is authenticated."""
+    @wraps(func)
+    def wrapper(self: Any, *args: Any, **kwargs: Any) -> Any:
+        if not bool(getattr(self, "is_authenticated", False)):
+            raise AuthenticationError("Authentication required.")
+        return func(self, *args, **kwargs)
+    return cast(F, wrapper)
+'@ | Set-Content .\app\core\decorators.py
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-ChildItem .\tests -File
+
+
+    Directory: C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\tests
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        9/18/2026   6:23 PM            870 test_services.py
+-a----        9/14/2026   9:23 PM              0 __init__.py
+
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> python -m compileall -q app tests
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> python -m pytest -q
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-ChildItem .\app\models -File
+
+
+    Directory: C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\app\models
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        9/14/2026   9:23 PM            171 __init__.py
+
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-Content .\app\models\__init__.py
+"""Domain models."""
+from app.models.course import Course
+from app.models.student import Student
+from app.models.user import User
+
+__all__ = ["Course", "Student", "User"]
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> git ls-files app/models
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> git log --oneline --all -- app/models
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-Content .\app\core\security.py
+"""Password hashing helpers based only on the Python standard library."""
+import hashlib
+import hmac
+import secrets
+
+def hash_password(password: str, *, salt: str | None = None) -> str:
+    """Return a salted PBKDF2 password representation."""
+    if not password:
+        raise ValueError("Password cannot be empty.")
+    salt_value = salt or secrets.token_hex(16)
+    digest = hashlib.pbkdf2_hmac("sha256", password.encode(), salt_value.encode(), 120_000)
+    return f"pbkdf2_sha256$120000${salt_value}${digest.hex()}"
+
+def verify_password(password: str, stored_hash: str) -> bool:
+    """Verify a plain password against a stored PBKDF2 representation."""
+    try:
+        algorithm, iterations, salt, expected = stored_hash.split("$", 3)
+        if algorithm != "pbkdf2_sha256":
+            return False
+        actual = hashlib.pbkdf2_hmac("sha256", password.encode(), salt.encode(), int(iterations)).hex()
+        return hmac.compare_digest(actual, expected)
+    except (ValueError, TypeError):
+        return False
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-Content .\app\core\config.py
+"""Central application paths and constants."""
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parents[2]
+DATA_DIR = BASE_DIR / "data"
+LOG_FILE = BASE_DIR / "app.log"
+USERS_FILE = DATA_DIR / "users.json"
+STUDENTS_FILE = DATA_DIR / "students.json"
+COURSES_FILE = DATA_DIR / "courses.json"
+
+def ensure_data_files() -> None:
+    """Create the data directory and empty JSON files when needed."""
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    for file_path in (USERS_FILE, STUDENTS_FILE, COURSES_FILE):
+        if not file_path.exists():
+            file_path.write_text("[]", encoding="utf-8")
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Remove-Item .\tests\test_services.py -ErrorAction SilentlyContinue
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Remove-Item .\app\core\decorators.py -ErrorAction SilentlyContinue
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Tests for independent core utilities."""
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Tests for independent core utilities."""
+import pytest
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Tests for independent core utilities."""
+import pytest
+from app.core.security import hash_password, verify_password
+import app.core.config as config
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Tests for independent core utilities."""
+import pytest
+from app.core.security import hash_password, verify_password
+import app.core.config as config
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Tests for independent core utilities."""
+import pytest
+from app.core.security import hash_password, verify_password
+import app.core.config as config
+def test_hash_and_verify_password():
+    stored = hash_password("secret123", salt="fixed-test-salt")
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Tests for independent core utilities."""
+import pytest
+from app.core.security import hash_password, verify_password
+import app.core.config as config
+def test_hash_and_verify_password():
+    stored = hash_password("secret123", salt="fixed-test-salt")
+    assert stored.startswith("pbkdf2_sha256$120000$")
+    assert verify_password("secret123", stored) is True
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Tests for independent core utilities."""
+import pytest
+from app.core.security import hash_password, verify_password
+import app.core.config as config
+def test_hash_and_verify_password():
+    stored = hash_password("secret123", salt="fixed-test-salt")
+    assert stored.startswith("pbkdf2_sha256$120000$")
+    assert verify_password("secret123", stored) is True
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Tests for independent core utilities."""
+import pytest
+from app.core.security import hash_password, verify_password
+import app.core.config as config
+def test_hash_and_verify_password():
+    stored = hash_password("secret123", salt="fixed-test-salt")
+    assert stored.startswith("pbkdf2_sha256$120000$")
+    assert verify_password("secret123", stored) is True
+def test_wrong_password_is_rejected():
+    stored = hash_password("correct-password", salt="fixed-test-salt")
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Tests for independent core utilities."""
+import pytest
+from app.core.security import hash_password, verify_password
+import app.core.config as config
+def test_hash_and_verify_password():
+    stored = hash_password("secret123", salt="fixed-test-salt")
+    assert stored.startswith("pbkdf2_sha256$120000$")
+    assert verify_password("secret123", stored) is True
+def test_wrong_password_is_rejected():
+    stored = hash_password("correct-password", salt="fixed-test-salt")
+    assert verify_password("wrong-password", stored) is False
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Tests for independent core utilities."""
+import pytest
+from app.core.security import hash_password, verify_password
+import app.core.config as config
+def test_hash_and_verify_password():
+    stored = hash_password("secret123", salt="fixed-test-salt")
+    assert stored.startswith("pbkdf2_sha256$120000$")
+    assert verify_password("secret123", stored) is True
+def test_wrong_password_is_rejected():
+    stored = hash_password("correct-password", salt="fixed-test-salt")
+    assert verify_password("wrong-password", stored) is False
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Tests for independent core utilities."""
+import pytest
+from app.core.security import hash_password, verify_password
+import app.core.config as config
+def test_hash_and_verify_password():
+    stored = hash_password("secret123", salt="fixed-test-salt")
+    assert stored.startswith("pbkdf2_sha256$120000$")
+    assert verify_password("secret123", stored) is True
+def test_wrong_password_is_rejected():
+    stored = hash_password("correct-password", salt="fixed-test-salt")
+    assert verify_password("wrong-password", stored) is False
+def test_empty_password_is_rejected():
+    with pytest.raises(ValueError):
+        hash_password("")
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Tests for independent core utilities."""
+import pytest
+from app.core.security import hash_password, verify_password
+import app.core.config as config
+def test_hash_and_verify_password():
+    stored = hash_password("secret123", salt="fixed-test-salt")
+    assert stored.startswith("pbkdf2_sha256$120000$")
+    assert verify_password("secret123", stored) is True
+def test_wrong_password_is_rejected():
+    stored = hash_password("correct-password", salt="fixed-test-salt")
+    assert verify_password("wrong-password", stored) is False
+def test_empty_password_is_rejected():
+    with pytest.raises(ValueError):
+        hash_password("")
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Tests for independent core utilities."""
+import pytest
+from app.core.security import hash_password, verify_password
+import app.core.config as config
+def test_hash_and_verify_password():
+    stored = hash_password("secret123", salt="fixed-test-salt")
+    assert stored.startswith("pbkdf2_sha256$120000$")
+    assert verify_password("secret123", stored) is True
+def test_wrong_password_is_rejected():
+    stored = hash_password("correct-password", salt="fixed-test-salt")
+    assert verify_password("wrong-password", stored) is False
+def test_empty_password_is_rejected():
+    with pytest.raises(ValueError):
+        hash_password("")
+def test_ensure_data_files(tmp_path, monkeypatch):
+    data_dir = tmp_path / "data"
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Tests for independent core utilities."""
+import pytest
+from app.core.security import hash_password, verify_password
+import app.core.config as config
+def test_hash_and_verify_password():
+    stored = hash_password("secret123", salt="fixed-test-salt")
+    assert stored.startswith("pbkdf2_sha256$120000$")
+    assert verify_password("secret123", stored) is True
+def test_wrong_password_is_rejected():
+    stored = hash_password("correct-password", salt="fixed-test-salt")
+    assert verify_password("wrong-password", stored) is False
+def test_empty_password_is_rejected():
+    with pytest.raises(ValueError):
+        hash_password("")
+def test_ensure_data_files(tmp_path, monkeypatch):
+    data_dir = tmp_path / "data"
+    monkeypatch.setattr(config, "DATA_DIR", data_dir)
+    monkeypatch.setattr(config, "USERS_FILE", data_dir / "users.json")
+    monkeypatch.setattr(config, "STUDENTS_FILE", data_dir / "students.json")
+    monkeypatch.setattr(config, "COURSES_FILE", data_dir / "courses.json")
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Tests for independent core utilities."""
+import pytest
+from app.core.security import hash_password, verify_password
+import app.core.config as config
+def test_hash_and_verify_password():
+    stored = hash_password("secret123", salt="fixed-test-salt")
+    assert stored.startswith("pbkdf2_sha256$120000$")
+    assert verify_password("secret123", stored) is True
+def test_wrong_password_is_rejected():
+    stored = hash_password("correct-password", salt="fixed-test-salt")
+    assert verify_password("wrong-password", stored) is False
+def test_empty_password_is_rejected():
+    with pytest.raises(ValueError):
+        hash_password("")
+def test_ensure_data_files(tmp_path, monkeypatch):
+    data_dir = tmp_path / "data"
+    monkeypatch.setattr(config, "DATA_DIR", data_dir)
+    monkeypatch.setattr(config, "USERS_FILE", data_dir / "users.json")
+    monkeypatch.setattr(config, "STUDENTS_FILE", data_dir / "students.json")
+    monkeypatch.setattr(config, "COURSES_FILE", data_dir / "courses.json")
+    config.ensure_data_files()
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+"""Tests for independent core utilities."""
+import pytest
+from app.core.security import hash_password, verify_password
+import app.core.config as config
+def test_hash_and_verify_password():
+    stored = hash_password("secret123", salt="fixed-test-salt")
+    assert stored.startswith("pbkdf2_sha256$120000$")
+    assert verify_password("secret123", stored) is True
+def test_wrong_password_is_rejected():
+    stored = hash_password("correct-password", salt="fixed-test-salt")
+    assert verify_password("wrong-password", stored) is False
+def test_empty_password_is_rejected():
+    with pytest.raises(ValueError):
+        hash_password("")
+def test_ensure_data_files(tmp_path, monkeypatch):
+    data_dir = tmp_path / "data"
+    monkeypatch.setattr(config, "DATA_DIR", data_dir)
+    monkeypatch.setattr(config, "USERS_FILE", data_dir / "users.json")
+    monkeypatch.setattr(config, "STUDENTS_FILE", data_dir / "students.json")
+    monkeypatch.setattr(config, "COURSES_FILE", data_dir / "courses.json")
+    config.ensure_data_files()
+    assert config.USERS_FILE.read_text(encoding="utf-8") == "[]"
+    assert config.STUDENTS_FILE.read_text(encoding="utf-8") == "[]"
+    assert config.COURSES_FILE.read_text(encoding="utf-8") == "[]"
+'@ | Set-Content .\tests\test_core.py
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-ChildItem .\tests -File
+
+
+    Directory: C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git\tests
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        9/18/2026   6:57 PM           1229 test_core.py
+-a----        9/14/2026   9:23 PM              0 __init__.py
+
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
