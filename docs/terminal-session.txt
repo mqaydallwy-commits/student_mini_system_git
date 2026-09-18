@@ -1670,3 +1670,192 @@ At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4
 +     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
     + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> python -m pytest -q
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> git status
+nothing added to commit but untracked files present (use "git add" to track)
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+The string is missing the terminator: '@.
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> @'
+__pycache__/
+*.py[cod]
+.pytest_cache/
+'@ | Set-Content .gitignore
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-ChildItem -Recurse -Directory -Filter __pycache__ | Remove-Item -Recurse -Force
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Remove-Item .pytest_cache -Recurse -Force -ErrorAction SilentlyContinue
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Get-ChildItem .\app\tests -Recurse
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> Remove-Item .\app\tests -Recurse -Force
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> git status
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> git add .gitignore tests/test_core.py docs
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> git status
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> git commit -m "test: add core tests and project documentation"
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> git push origin main
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> git status
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> pwd
+
+Path
+----
+C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git
+
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
+PS C:\Users\Mohmmed_AL-raud\Desktop\student_mini_system_git> ls -la
+>> TerminatingError(Get-ChildItem): "A parameter cannot be found that matches parameter name 'la'."
+Get-ChildItem : A parameter cannot be found that matches parameter name 'la'.
+At line:1 char:4
++ ls -la
++    ~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+Get-ChildItem : A parameter cannot be found that matches parameter name 'la'.
+At line:1 char:4
++ ls -la
++    ~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+Exception calling "ReadLine" with "2" argument(s): "The type initializer for 'Microsoft.PowerShell.PSConsoleReadLine' 
+threw an exception."
+At C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1:4 char:5
++     [Microsoft.PowerShell.PSConsoleReadLine]::ReadLine($host.Runspace ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : TypeInitializationException
